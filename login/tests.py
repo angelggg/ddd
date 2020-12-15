@@ -1,10 +1,9 @@
-import pytest
 from rest_framework.status import HTTP_201_CREATED, HTTP_401_UNAUTHORIZED, HTTP_200_OK, HTTP_400_BAD_REQUEST
 from rest_framework.test import APITestCase
 from .models import MyUser
 
-class AccountTests(APITestCase):
 
+class AccountTests(APITestCase):
 
     def test_create_account(self):
         """
